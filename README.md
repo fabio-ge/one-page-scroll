@@ -10,3 +10,5 @@ Per utilizzare il progetto è necessario avere installato python ed eseguire, da
 python -m http.server 8000 --cgi
 ```
 L' invio della mail non funzionerà se non si mettono i valori del proprio server smtp nel file cgi-bin/mail.py
+
+**N.B.** Non è un codice pensato per andare in produzione. E' solo un punto di partenza
