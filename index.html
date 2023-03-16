@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metti un titolo</title>
+    <link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+    <nav id="mainNav">
+      <div class="nav-logo">        
+        Logo
+      </div>
+      <div class="nav-menu">
+        <a href="#home" class="nav-item">Home</a>
+        <a href="#att" class="nav-item">Attività</a>
+        <a href="#dove" class="nav-item">Dove siamo</a>
+        <a href="#contatti" class="nav-item">Contatti</a>
+      </div>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+      
+      <div id="home">
+      </div>
+      <div id="att">
+        <h2>Attività</h2>
+      </div>
+      <div id="dove">
+        <h2>Dove siamo</h2>
+      </div>
+      <div id="contatti">
+        <h2>CONTATTI</h2>
+        <form action="send.py">
+          <input type="text" name="nome" placeholder="nome">
+          <input type="text" name="email" placeholder="email">
+          <input type="text" name="oggetto" placeholder="oggetto">
+          <textarea name="messaggio" cols="30" rows="10" placeholder="Inserisci qui il tuo messaggio"></textarea>
+          <input type="submit" value="Invia" id="bottone"/>
+        </form>
+      </div>
+      <script src="main.js?a=1"></script>
+    </body>
+</html>
